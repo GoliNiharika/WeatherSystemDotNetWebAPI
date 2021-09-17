@@ -27,12 +27,14 @@ namespace WeatherManagementSystem.Controllers
         {
             weatherService.AddWeather(wd);
         }
-        [HttpDelete]
-        public int DeleteWeather(int wid)
+        [HttpPost]
+        [Route("DeleteCity")]
+        public int DeleteWeather(WeatherDetail wd)
         {
-            return weatherService.DeleteWeather(wid);
+            return weatherService.DeleteWeather(wd);
         }
-        [HttpPut]
+        [HttpPost]
+        [Route("EditCity")]
         public int EditWeather(WeatherDetail wd)
         {
             return weatherService.EditWeather(wd);
@@ -47,6 +49,7 @@ namespace WeatherManagementSystem.Controllers
             return weatherList;
            
         }
+
         [HttpGet]
         public List<WeatherDetail> GetWeatherAllWeathers()
         {
