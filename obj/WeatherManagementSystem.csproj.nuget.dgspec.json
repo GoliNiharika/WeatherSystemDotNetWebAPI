@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ngoli\\source\\repos\\WeatherManagementSystem\\WeatherManagementSystem.csproj": {}
+    "C:\\Users\\ngoli\\source\\repos\\DotNetAPI\\WeatherManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ngoli\\source\\repos\\WeatherManagementSystem\\WeatherManagementSystem.csproj": {
+    "C:\\Users\\ngoli\\source\\repos\\DotNetAPI\\WeatherManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ngoli\\source\\repos\\WeatherManagementSystem\\WeatherManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\ngoli\\source\\repos\\DotNetAPI\\WeatherManagementSystem.csproj",
         "projectName": "WeatherManagementSystem",
-        "projectPath": "C:\\Users\\ngoli\\source\\repos\\WeatherManagementSystem\\WeatherManagementSystem.csproj",
+        "projectPath": "C:\\Users\\ngoli\\source\\repos\\DotNetAPI\\WeatherManagementSystem.csproj",
         "packagesPath": "C:\\Users\\ngoli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ngoli\\source\\repos\\WeatherManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\ngoli\\source\\repos\\DotNetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

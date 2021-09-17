@@ -11,6 +11,6 @@ namespace WeatherManagementSystem.Service
         public List<WeatherDetail> GetWeatherByCity(string city);
         public List<WeatherDetail> GetWeatherAllWeathers();
         public int EditWeather(WeatherDetail wd);
-        public int DeleteWeather(int wid);
+        public int DeleteWeather(WeatherDetail wd);
     }
 }

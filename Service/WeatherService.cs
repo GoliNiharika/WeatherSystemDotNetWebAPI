@@ -26,15 +26,15 @@ namespace WeatherManagementSystem.Service
             return status;
         }
 
-        public int DeleteWeather(int wid)
+        public int DeleteWeather(WeatherDetail wd)
         {
             int status = 0;
             try
             {
                 using (var weatherDBContext = new WeatherDBContext())
                 {
-                    WeatherDetail detail = weatherDBContext.WeatherDetails.Find(wid);
-                    weatherDBContext.WeatherDetails.Remove(detail);
+                    //WeatherDetail detail = weatherDBContext.WeatherDetails.Find(wid);
+                    weatherDBContext.WeatherDetails.Remove(wd);
                     weatherDBContext.SaveChanges();
                     status = 1;
                 }
